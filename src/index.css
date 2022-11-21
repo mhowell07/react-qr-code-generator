@@ -30,7 +30,7 @@ input {
   background-color: rgb(252, 252, 253);
 }
 
-button {
+button, .dl-link {
   background: #5296A5;
   color: rgb(252, 252, 253);
   border: 2px solid #5296A5;
@@ -40,9 +40,10 @@ button {
   font-size: 20px;
   display: inline-block;
   transition: all .4s ease-in-out; 
+  text-decoration: none;
 }
 
-button:hover {
+button:hover, .dl-link:hover {
   transform: scale(1.1);
 }
 
@@ -51,4 +52,10 @@ img {
   display: block;
   margin: 0 auto;
   margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 400px;
+}
+
+.dl-link {
+  border-radius: 5px;
 }
