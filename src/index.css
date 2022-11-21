@@ -1,0 +1,47 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, #F06966 , #FAD6A6);
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #2A2B2A;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.wrapper {
+  display: inline-block;
+}
+
+input {
+  border: none;
+  border-radius: 5px 0 0 5px;
+  padding: .8rem 1rem;
+  font-size: 20px;
+  width: 100%;
+  background-color: rgb(252, 252, 253);
+}
+
+button {
+  background: #5296A5;
+  color: rgb(252, 252, 253);
+  border: 2px solid #5296A5;
+  border-radius: 0 5px 5px 0;
+  padding: .7rem .5rem;
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  transition: all .4s ease-in-out; 
+}
+
+button:hover {
+  transform: scale(1.1);
+}
