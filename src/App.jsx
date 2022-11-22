@@ -36,7 +36,6 @@ function App() {
           onInput={(e) => setUrl(e.target.value)}
           required
           autoFocus
-          maxLength={60}
           placeholder="Enter Url"
         />
       </div>
